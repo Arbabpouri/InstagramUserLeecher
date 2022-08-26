@@ -36,9 +36,9 @@ def GiveTarget(): #Get Target
 
 def FollowerOrFollowing():
     Selection = input("Follower Or Following : ")
-    if Selection == "follower":
+    if Selection.lower() == "follower":
         Leacher(Username,Password,Target).FollowersLeacher()
-    elif Selection.lower == "following":
+    elif Selection.lower() == "following":
         Leacher(Username,Password,Target).Followingleacher()
     else:
         print(Fore.RED + "Incorrect Value")
