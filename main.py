@@ -1,5 +1,5 @@
 #in the name of god | Coded By SardarCyberym | Yarnovin | GitHub.com/SardarCybery
-from Leacher import Leacher
+from Leacher.Leacher import Leacher
 from colorama import Fore
 from re import match
 from os import system,name
@@ -17,7 +17,7 @@ def GiveUserName(): #Get Username
 
 def GivePassword(): #Get Password
     global Password
-    Password = input(Fore.GREEN + "Password : ")
+    Password = input(Fore.LIGHTMAGENTA_EX + "Password : ")
     if int(len(Password)) < 8 :
         print(Fore.RED + "Incorrect Value")
         GivePassword()
@@ -26,23 +26,14 @@ def GivePassword(): #Get Password
 
 def GiveTarget(): #Get Target
     global Target
-    Target = input(Fore.GREEN + "Target Username : ")
+    Target = input(Fore.LIGHTCYAN_EX + "Target Username : ")
     CheckTarget = match(r"^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$",Target)
     if CheckTarget:
-        FollowerOrFollowing()  
+        Leacher(Username,Password,Target).FollowersLeacher()
     else:
         print(Fore.RED + "Incorrect Value")
         GiveTarget()
 
-def FollowerOrFollowing():
-    Selection = input("Follower Or Following : ")
-    if Selection.lower() == "follower":
-        Leacher(Username,Password,Target).FollowersLeacher()
-    elif Selection.lower() == "following":
-        Leacher(Username,Password,Target).Followingleacher()
-    else:
-        print(Fore.RED + "Incorrect Value")
-        FollowerOrFollowing()
 
 if __name__ == '__main__' :
     print(f"""
