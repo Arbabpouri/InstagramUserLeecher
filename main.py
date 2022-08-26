@@ -1,5 +1,5 @@
 #in the name of god | Coded By SardarCyberym | Yarnovin | GitHub.com/SardarCybery
-from Leacher.Leacher import Leacher
+from Leecher import Leecher
 from colorama import Fore
 from re import match
 from os import system,name
@@ -29,7 +29,7 @@ def GiveTarget(): #Get Target
     Target = input(Fore.LIGHTCYAN_EX + "Target Username : ")
     CheckTarget = match(r"^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$",Target)
     if CheckTarget:
-        Leacher(Username,Password,Target).FollowersLeacher()
+        Leecher(Username,Password,Target).FollowersLeecher()
     else:
         print(Fore.RED + "Incorrect Value")
         GiveTarget()
