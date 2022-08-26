@@ -16,4 +16,4 @@ pip install instaloader
 - Selection
 - Wait for the operation to finish
 
-My id in telegram [SardarCyberym](t.me/Mr_Nazism)
+My id in telegram [SardarCyberym](https://t.me/Mr_Nazism)
