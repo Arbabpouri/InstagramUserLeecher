@@ -1,5 +1,5 @@
 #in the name of god | Coded By SardarCyberym | Yarnovin | GitHub.com/SardarCybery
-from Leacher.Leacher import Leacher
+from Leacher import Leacher
 from colorama import Fore
 from re import match
 from os import system,name
