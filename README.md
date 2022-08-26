@@ -1,5 +1,5 @@
 # Collection of Instagram Followers And Followings
 
-#Do these things first
+# Do these things first
 
-##TODO pip install colorama
+## TODO pip install colorama
