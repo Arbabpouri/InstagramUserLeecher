@@ -3,6 +3,6 @@
 **Do these things first**
 
 ```
-pip install colorama
-pip install instaloader
+- pip install colorama
+- pip install instaloader
 ```
