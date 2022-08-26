@@ -2,4 +2,8 @@
 
 # Do these things first
 
-## TODO pip install colorama
+```
+
+```python
+import foobar
+```
