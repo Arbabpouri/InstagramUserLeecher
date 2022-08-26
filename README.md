@@ -1,4 +1,4 @@
-# Collection of Instagram Followers And Followings :sunglasses:
+# Collection of Instagram Followers :sunglasses:
 **please give me star:star:**
 
 
@@ -15,7 +15,6 @@ pip install instaloader
 - Give your Username
 - Give your Password
 - Give your Target
-- Selection
 - Wait for the operation to finish
 
 My id in telegram [SardarCyberym](https://t.me/Mr_Nazism) :speech_balloon:
