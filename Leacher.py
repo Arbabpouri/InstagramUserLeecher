@@ -3,7 +3,7 @@ import instaloader
 from time import sleep
 from colorama import Fore
 app = instaloader.Instaloader()
-class Leacher:
+class Leecher:
     def __init__(self,Username:str,Password:str,Target:str) -> None:
         self.Username = Username
         self.Passsord = Password
