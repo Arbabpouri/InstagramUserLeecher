@@ -2,14 +2,14 @@
 **please give me star:star:**
 
 
-**Do these things first : **:point_down:
+**Do these things first : :point_down:**
 
 ```
 pip install colorama
 pip install instaloader
 ```
 
-**Then :**:point_down:
+**Then : :point_down:**
 
 - Run the main file
 - Give your Username
