@@ -3,7 +3,6 @@
 # Do these things first
 
 ```
-
-```python
-import foobar
+pip install colorama
+pip install instaloader
 ```
