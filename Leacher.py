@@ -14,9 +14,7 @@ class Leacher:
             print(Fore.LIGHTGREEN_EX + "Login . . .")
             FollowerList = []
             Profile = instaloader.Profile.from_username(app.context,self.Target)
-            SleepTime = 0
-            AntiBan = 0
-            count = 0
+            SleepTime,AntiBan,count = 0,0,0
             FileFollowers = open("Followers.txt", "a+")
             for Followers in Profile.get_followers():
                 print(Followers.username)
