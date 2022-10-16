@@ -39,6 +39,5 @@ if __name__ == '__main__' :
     print(f"""
 {Fore.LIGHTBLUE_EX}Telegram : {Fore.LIGHTGREEN_EX}t.me/Mr_Nazism
 {Fore.LIGHTCYAN_EX }Github : {Fore.LIGHTYELLOW_EX}Github.com/SardarCybery
-{Fore.LIGHTRED_EX}WebSite : {Fore.LIGHTMAGENTA_EX}YarNovin.ir
     """)
     GiveUserName()
