@@ -5,6 +5,7 @@ from re import match
 from os import system,name
 system('clear' if name == 'posix' else 'cls')
 
+
 def GiveUserName(): #Get Username
     global Username
     Username = input(Fore.GREEN + "Username : ")
