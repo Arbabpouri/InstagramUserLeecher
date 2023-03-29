@@ -5,8 +5,7 @@
 **Do these things first : :point_down:**
 
 ```
-pip install colorama
-pip install instaloader
+pip install -r requirements.txt
 ```
 
 **Then : :point_down:**
