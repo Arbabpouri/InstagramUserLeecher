@@ -17,4 +17,4 @@ pip install instaloader
 - Give your Target
 - Wait for the operation to finish
 
-My id in telegram [SardarCyberym](https://t.me/Mr_Nazism) :speech_balloon:
+My id in telegram [SardarCyberym](https://t.me/Oxygn16) :speech_balloon:
