@@ -16,4 +16,4 @@ pip install -r requirements.txt
 - Give your Target
 - Wait for the operation to finish
 
-My id in telegram [SardarCyberym](https://t.me/Oxygn16) :speech_balloon:
+My id in telegram [SardarCyberym](https://t.me/Jararre) :speech_balloon:
